@@ -27,7 +27,7 @@ Eventually, [Dao et al., 2021](https://journals.open.tudelft.nl/jchs/article/vie
 
 The mentioned examples are proven the trust of using this model for further simulations, especially in the laboratory condition, even though it is even more confident if validating the model with the field measurement data. Thus, this model can be a good computational laboratory for studying purpose.
 
-*Alternative models
+2. Alternative models
 
 Moreover, [SWAN](https://swanmodel.sourceforge.io/) is a third-generation wave model, developed at Delft University of Technology, that computes random, short-crested wind-generated waves in coastal regions and inland waters. Many related publications that taken into account SWAN to solve ocean issues can be found [here](https://swanmodel.sourceforge.io/references/references.htm).
 
