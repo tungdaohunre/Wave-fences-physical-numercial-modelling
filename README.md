@@ -14,6 +14,7 @@ In Tung Dao research, data from experiments, physical and numerical modeling wer
 This Ph.D. research can finally bring out the knowledge gaps that the previous literature was failed to find. However, there are more contents needed to study, for example, the 2D and 3D studies on hydraulic display for the fence, wave, and flow, and especially, the sediment transport as well as coming back to the goal that is to restore mangrove loss along the Mekong deltaic coasts.
 
 2. Exercise 01
+
 In this section, serval exercises will be provide to describe how wave and wooden fence interact. The python script for this exercise can be found in Exercise 01 directory.
 
 ---
