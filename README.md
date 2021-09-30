@@ -12,35 +12,35 @@ In Tung Dao research, data from experiments, physical and numerical modeling wer
 This Ph.D. research can finally bring out the knowledge gaps that the previous literature was failed to find. However, there are more contents needed to study, for example, the 2D and 3D studies on hydraulic display for the fence, wave, and flow, and especially, the sediment transport as well as coming back to the goal that is to restore mangrove loss along the Mekong deltaic coasts.
 
 ---
-## Course attempt
+## Numerical models
+Numerical models have been applied in many fields, and it is more important to apply them to solve the coastal hydraulic problem thank to the rapid development of computing technology. The numerical technique can be based on the finite element method, finite difference method , boundary element method, finite volume method and Eulerian-Lagrangian method. The time-stepping algorithm can be implicit, semi-implicit, explicit, or characteristic-based. The shape function can be of the first order, second order, or a higher order. The modelling can be simplified into different spatial dimensions, i.e., a one-dimensional (1D) model, two-dimensional (2D) depth-integrated model, 2D lateral-integrated model, 2D layered model and 3D model [(Coastal Wiki)](http://www.coastalwiki.org/wiki/Modelling_coastal_hydrodynamics).
 
-This study case is for every student who is interested in nature-based solutions for supporting the coasts. The title of this study case can be summarized as "Introduction to brushwood fences for supporting damaged coasts". Due to the Mekong deltaic coast is quite specific, thus, students can apply the content to any coast. Moreover, students can base on this case to freely build different cases. 
+**SWASH
 
-To follow it, students need to take place many courses that can be found in [here](https://d2k0ddhflgrk1i.cloudfront.net/TUDelft/Onderwijs/Opleidingen/Master/MSc_Civil_Engineering/HE/Brochure%20MSc-HE%20academic%20year%202020-2021.pdf). However, the background knowledge of coastal engineering can be the main concern, such as Ocean waves (CIE4325), Coastal dynamics I (CIE4305) and II (CIE4309), Ports and Waterways I (CIE4330), Computational Modelling of Flow and Transport (CIE4340), Breakwaters and Closure Dams (CIE5308). Students also need to follow several courses in Specialisation Environmental Fluid Mechanics. For example, Turbulence in Hydraulics (CIE5312), Computational Hydraulics (CIE5325), Coastal and Basin-scale Physical Oceanography (CIE5315). Moreover, several elective courses are needed to follow, such as Hydraulic Structures (CIE5313-18), Sediment Dynamics (CIE4308), and more.
+The [SWASH](https://swash.sourceforge.io/) (an acronym of Simulating WAves till SHore) is a non-hydrostatic wave-flow model and is intended to be used for predicting transformation of dispersive surface waves from offshore to the beach for studying the surf zone and swash zone dynamics, wave propagation and agitation in ports and harbours, rapidly varied shallow water flows typically found in coastal flooding resulting from e.g. dike breaks, tsunamis and flood waves, density driven flows in coastal waters, and large-scale ocean circulation, tides and storm surges. Many studies have applied this model to solve coastal problem, including the nearzone, sediment transport, and vegetation interaction. The related publication can be found [here](https://swash.sourceforge.io/references/references.htm).
 
-The content of this study case can be separated into serval sections:
-1. Coastal engineering
- * Background of the coast 
- * Coastal hydro- and morpho-dynamics
-2. Waves
- * Understanding waves and their characteristics (CIE4325)
- * Short- and long-terms wave statistics and calculations (CIE4325, CIE4305)
- * Wave propagation and transformation from offshore to nearshore (CIE4325, CIE4305)
-3. Coastal protection
- * Background of coastal structures and protection solutions (CIE4305, CIE5308, CIE5313-18, CIE5315, & CIE5308)
- * Understanding fluid mechanics and structures (CIE5312, CIE5313-18, & CIE5308)
- * Nature-based solutions
-4. Fluid mechanics in wooden fences and vegetation (mangroves)
- * Flow and a cylinder
- * Flow inside an array of cylinders and random arrangement cylinders
- * Wave, wave-induced flow inside an array of cylinders
-5. Numerical model
- * SWASH
- * SWAN
- * And many others
-6. Physical model
- * Experimental equipments
-7. Coastal management
- * Integration of coastal management
+The SWASH model have been applied in wave propagation to the shore and was validated in many studies, for example, wave attenuation and wave breaking processes in the swash-zone [(Smit, Zijlema, and Stelling, 2013)](https://www.sciencedirect.com/science/article/abs/pii/S0378383913000215?via%3Dihub). Furthermore, most of studies which consider wave reduction due to vegetation are also taken into account the SWASH model with the vegetation implementation as a good tools. 
 
-There are indeed many other contents that are based on students' imagination. It is highly appreciated for building more cases and contents. 
+The PhD thesis of [Phan, L.K. (2019)](https://research.tudelft.nl/en/publications/wave-attenuation-in-coastal-mangroves-mangrove-squeeze-in-the-mek), including a study of the effect of nonlinear wave reduction by vegetation, present an example of applying SWASH model. Moreover, [Cao 2016](https://bioone.org/journals/journal-of-coastal-research/volume-75/issue-sp1/SI75-167.1/Numerical-Modeling-of-Wave-Transformation-and-Runup-Reduction-by-Coastal/10.2112/SI75-167.1.short) studied wave transformation and run up reduction by coastal vegetation and especially the consideration of both horizontal and vertical components of mangroves in SWASH model in study of [Suzuki et al. (2019)](https://www.sciencedirect.com/science/article/abs/pii/S0378383917304179?via%3Dihub) brings to the new explaination for wave attenuation inside an mangrove area. 
+
+Eventually, [Dao et al., 2021](https://journals.open.tudelft.nl/jchs/article/view/5612) validated and calibrated the SWASH model using experimental data of wave damping due to wooden fence by applying the new vegetation implementation equation in [Suzuki et al. 2019](https://www.sciencedirect.com/science/article/pii/S0378383917304179).
+
+The mentioned examples are proven the trust of using this model for further simulations, especially in the laboratory condition, even though it is even more confident if validating the model with the field measurement data. Thus, this model can be a good computational laboratory for studying purpose.
+
+**Alternative models
+
+Moreover, [SWAN](https://swanmodel.sourceforge.io/) is a third-generation wave model, developed at Delft University of Technology, that computes random, short-crested wind-generated waves in coastal regions and inland waters. Many related publications that taken into account SWAN to solve ocean issues can be found [here](https://swanmodel.sourceforge.io/references/references.htm).
+
+SWAN accounts for the following physics:
+  * Wave propagation in time and space, shoaling, refraction due to current and depth, frequency shifting due to currents and non-stationary depth.
+  * Wave generation by wind.
+  * Three- and four-wave interactions.
+  * Whitecapping, bottom friction and depth-induced breaking.
+  * Dissipation due to aquatic vegetation, turbulent flow and viscous fluid mud.
+  * Wave-induced set-up.
+  * Propagation from laboratory up to global scales.
+  * Transmission through and reflection (specular and diffuse) against obstacles.
+  * Diffraction.
+
+There are also many numerical models that can be suitable for simulating coastal hydralic problems, such as Sbeach, Xbeach, Duros Plus, Litpack, Genesis, Unibest-CL, Delft3D, Telemac, EFDC.
+
