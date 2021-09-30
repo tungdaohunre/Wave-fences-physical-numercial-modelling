@@ -9,3 +9,10 @@ In the past decade the role of wooden fences, containing brushwood and branches,
 In Tung Dao research, data from experiments, physical and numerical modeling were collected to obtain the background knowledge of the interaction between flows (and waves) and circular cylinders. Firstly, the interaction between flows and cylinders (an array of random cylinders or a random arrangement of cylinders) was investigated to obtain the proper bulk drag coefficient ($\overline{C_d}$) for a particular arrangement of the fence's inner part in the separated experiments. The \overline{C_d}, then, can be used to calibrate the numerical model, [SWASH](http://swash.sourceforge.net/), alongside with the physical data obtained from the wave flume tests. Further investigation about nonlinear waves and wooden fences then was studied by the SWASH model. The relationship between nonlinear waves might play an important role in the sediment transport in the Mekong deltaic coast, and the fence's characteristics were then carried out. Finally, the application of the SWASH model in the real boundary conditions, such as waves and topography, was studied.
 
 This Ph.D. research can finally bring out the knowledge gaps that the previous literature was failed to find. However, there are more contents needed to study, for example, the 2D and 3D studies on hydraulic display for the fence, wave, and flow, and especially, the sediment transport as well as coming back to the goal that is to restore mangrove loss along the Mekong deltaic coasts.
+
+\documentclass{article}
+\begin{document}
+This is overline: $\overline{ABC}$.
+
+This is bar: $\bar{ABC}$.
+\end{document}
