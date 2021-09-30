@@ -4,6 +4,7 @@ This is an example of a study case for building a master programe which is based
 ---
 ## Introduction
 1. About Tung Dao research
+
 In the past decade the role of wooden fences, containing brushwood and branches, in efforts to restoring mangroves has been recognized since a vast reduction of mangroves occurred along the Mekong deltaic coast. This study aims to better understand the hydrodynamic performance related to the possible mechanism of wave reduction and the influence of wave characteristics on wave damping due to wooden fences and, in this study, brushwood fences in particular.
 
 [The brushwood fence or dam](https://drive.google.com/file/d/11zm1OStK9D_ZhLGszBrhvxqLhdP3CH8G/view?usp=sharing) (used in Indonesia and Suriname) is a soft/green infrastructure used to support a damaged coast. It could be used in either a mangrove coast that already suffered from a mass reduction or an eroded coast. The common structure of the brushwood fence has two main parts, the frame and the inner parts. The frame consists of a large bamboo/tree with a diameter from 8-10 cm forming into two to three parallel rows. The frame has a very low permeable value, in another way, the purpose is to keep inner parts in place. The inner parts construct bunches of tree/bamboo branches with an average diameter of 1-2 cm. The average porosity value of the inner parts is about 80% to 90% which is enough for damping wave energy and promoting sediments and nutrient for mangroves. Although the efficiency of wooden fence on damping waves is presented clearly in Tung Dao thesis, the statement about sediment transport through brushwood fences is carrying out in the future research.
@@ -49,6 +50,7 @@ SWAN accounts for the following physics:
 There are also many numerical models that can be suitable for simulating coastal hydralic problems, such as Sbeach, Xbeach, Duros Plus, Litpack, Genesis, Unibest-CL, Delft3D, Telemac, EFDC.
 
 3. SWASH Exercises
+
 Before practicing, it is recommendedn that users should read the User Manual and examples on the official website of SWASH. Also, the brief guideline for installation, interpretation of commnand files and bathymetry for 1D simulation can be found [here](https://colab.research.google.com/drive/1M7YrSOv6xSdRSPI2K2ttvPI689O7bMaU).
 
 In this practice, users successfully run 1D test of wave propagation to the shore from the water depth of 10 m. The forshore slope is 1:10, uniform and rectangular. Still water level is 0.0 m. The wave conditions are regular with Hrms = 1.0 m, and T = 5.5 seconds.
