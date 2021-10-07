@@ -13,7 +13,7 @@ This Ph.D. research can finally bring out the knowledge gaps that the previous l
 
 ### Example
 
-This is one of cases in Tung Dao Ph.D. which was recored in the wave flume at Hydraulic Engineering Laboratory to test wave damping due to wooden fences. The case is **$H_s$ = 0.07** [m], **$T_p$ = 2.4** [s], at water depth **$d$ = 0.2** [m]. There were total 09 wave gauges that recored surface elevations.
+This is one of cases in Tung Dao Ph.D. which was recored in the wave flume at Hydraulic Engineering Laboratory to test wave damping due to wooden fences. The case is **H_s = 0.07** [m], **T_p = 2.4** [s], at water depth **d = 0.2** [m]. There were total 09 wave gauges that recored surface elevations.
 
 The second data is the significant wave heights simulated by the SWASH model.
 
