@@ -1,4 +1,4 @@
-# Introduction to brushwood fences for supporting damaged coasts
+# Brushwood fences for supporting damaged coasts
 
 In the past decade the role of wooden fences, containing brushwood and branches, in efforts to restoring mangroves has been recognized since a vast reduction of mangroves occurred along the Mekong deltaic coast. This study aims to better understand the hydrodynamic performance related to the possible mechanism of wave reduction and the influence of wave characteristics on wave damping due to wooden fences and, in this study, brushwood fences in particular.
 
