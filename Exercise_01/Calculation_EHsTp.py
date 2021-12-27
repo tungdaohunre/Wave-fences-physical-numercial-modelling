@@ -9,28 +9,9 @@ The main function to calculate mentioned characteristics calls
 wave momentum in zeroth order (could be in 1$^{st}$ or 2$^{nd}$ order), and
 wavelength in specific depth. 
 <br><br>
-Author: Tung Dao, Dec 2021
-"""
-
-# In[Introduction]
-"""
-* This function is to calculate wave heights from experiment data or time
-series data.
-* There are three sub-function inside it, the variance density spectrum,
-spectral moment, and wavelength calculation
-* Input:
-    * Time series data
-    * nfft
-    * Number of column in data file (n, this parameter is depend on
-                                     measurement sensors)
-    * The sampling frequency (Fs = 1/dt)
-* Output: 
-    * Spectral density, frequency, 
-    * The zeroth order or signinficant wave heights
-    * Wave period (this is to compare to the initial input at wave generator)
-
 Author: Tung Dao
 Year: Sep 2021
+Update: Dec 2021
 """
 
 # In[Main function]
@@ -83,7 +64,7 @@ def Calculation_EHsTp(data, block_length, measured_points, freq_sample):
         # Update Significant_wave_height
         Hsig = np.append(Hsig, temp_Hs)
 
-    # Convert to array: cut 9 column and put into a row
+    # Convert to array: cut number of columns and put into a row
     Spect_density = np.asarray(Spect_density,
                                dtype=np.float64).reshape(measured_points, -1).T
     freq = np.asarray(freq, dtype=np.float64).reshape(measured_points, -1).T
